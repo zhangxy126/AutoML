@@ -1,7 +1,5 @@
-# 🌟 A reinforcement learning and pretrained network enhanced meta-learning framework for automated algorithm selection
-
-A complete, fully reproducible pipeline for **meta-feature extraction**, **image feature generation**, **reinforcement learning–based feature selection**, and **final classifier training**.  
-This repository includes both **preprocessed data** (`merge.pt`) and all source code for end‑to‑end experimentation.
+# 🌟 A complete, fully reproducible pipeline for **meta-feature extraction**, **image feature generation**, **reinforcement learning–based feature selection**, and **final classifier training**.  
+This repository includes both **preprocessed data** (`now-merge.pt`) and all source code for end‑to‑end experimentation.
 
 ---
 
@@ -10,7 +8,7 @@ This repository includes both **preprocessed data** (`merge.pt`) and all source 
 We provide a fully processed merged dataset:
 
 ```
-merge.pt
+now-merge.pt
 ```
 
 You can directly run the classifier:
@@ -127,7 +125,7 @@ python merge.py
 Output:
 
 ```
-merge.pt
+now-merge.pt
 ```
 
 ---
@@ -160,7 +158,7 @@ project/
 │   └── dqn_train.py
 │── merge.py
 │── meta_classifier.py
-│── merge.pt
+│── now-merge.pt
 │── dataset_list.txt
 └── README.md
 ```
